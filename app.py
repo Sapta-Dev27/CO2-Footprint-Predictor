@@ -77,6 +77,8 @@ if st.button("Calculate CO2 Emissions"):
         st.info(f"🍽️ Diet: {diet_emissions} tonnes CO2 per year")
         st.info(f"🗑️ Waste: {waste_emissions} tonnes CO2 per year")
         st.write("#")
+        st.subheader(f"Try our AI ChatBot which answers you to let you make a greener world")
+        st.write("Here's our [AI GREEN BUDDY](https://mediafiles.botpress.cloud/e6c594eb-26f3-4ee9-953f-f6329e9e9cf7/webchat/bot.html)")
 
         st.write("#")
 
@@ -94,5 +96,19 @@ if st.button("Calculate CO2 Emissions"):
         else:
 
             st.error("That's pretty High and Harmful, Try greener alternatives")
-        st.warning("In 2021, CO2 emissions per capita for India was 1.9 tons of CO2 per capita. Between 1972 and 2021, CO2 emissions per capita of India grew substantially from 0.39 to 1.9 tons of CO2 per capita rising at an increasing annual rate that reached a maximum of 9.41% in 2021")
+    
+    
+
+
+        
+    st.warning("In 2021, CO2 emissions per capita for India was 1.9 tons of CO2 per capita. Between 1972 and 2021, CO2 emissions per capita of India grew substantially from 0.39 to 1.9 tons of CO2 per capita rising at an increasing annual rate that reached a maximum of 9.41% in 2021")
+
+    st.write("#")
+
+    st.write("#")
+
+
+
+
+
 
